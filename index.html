@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <title>Home - Zeph Frear Hanson</title>
+        
+<header class="header">
+        <nav class="navbar">
+            <img src="icon.png" class="nav-logo">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    
+    <script>const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+    
+    const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+}</script>
+</header>
+            
+            <div class="container">
+                <img class="hero" src="175149046_314615293559232_9215517469715513351_n.jpg">
+            <div class="herotext">
+                <h2>Zephaniah<br>Frear Hanson</h2>
+                <h><b>Zeph is a level three student in South Canterbury with aspirations to work in the media production industry.</b></h>
+            </div>
+        </div>
+    </head>
+    <body>
+        <section class="body">
+            <section class="ski">
+                <h2>Skills</h2>
+                <p>I have skills in a wide range photo, video, and audio softwares such as Adobe Photoshop, Adobe Illustartor, Final Cut Pro X, Adobe Premiere Pro, Adobe After Effects, IMovie, Windows Movie Maker, Audacity and GarageBand.<br><br> As well as that I am also familiar with coding languages such as python, html, CSS, Javascript and SQL</p>
+            </section>
+            <section class="qual">
+                <h2>Qualifications</h2>
+                <p>
+                <li>NCEA Level 1 endorsement in Merit</li>
+                <li>NCEA Level 2 endorsement in Achieved</li>
+                <p></p>
+            </section>
+            
+            <section class="post">
+                <h2>Posts</h2>
+                    <section class="testpost">
+                        <h3>Test post</h3>
+                        <p>This is a post testing out the styling and layout of the website.</p>
+                    </section>
+            </section>
+            <section class="gall">
+                <h2>Gallery</h2>
+                <iframe width="80%" height="20%"
+                src="https://www.youtube.com/embed/AaER8sK-C_Q">
+                </iframe>
+                <iframe width="80%" height="20%"
+                src="https://www.youtube.com/embed/u9guIatXaWs">
+                </iframe>
+                <iframe width="80%" height="20%"
+                src="https://www.youtube.com/embed/UVrJVvR-QiI">
+                </iframe>
+            </section>
+        </section>
+    </body>
+    
+    <footer>
+        <h4>© - Zeph Frear Hanson 2021</h4>
+        <section class="footcont">
+        <h4>Ways to contact</h4>
+            <li><a>Email</a></li>
+            <li><a href="https://www.youtube.com/channel/UCRKq-mK8QWkoX40fXxZ9ygA">Youtube</a></li>
+            <li><a href="https://www.linkedin.com/in/zephaniah-frear-hanson-92895a20b/">LinkdIN</a></li>
+        </section>
+    </footer>
+</html>
