@@ -161,7 +161,7 @@ iframe {
 @media screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
-        left: -100%;
+        left: -150%;
         top: 5rem;
         flex-direction: column;
         background-color: #e0e0e0;
