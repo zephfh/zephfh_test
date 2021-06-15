@@ -205,6 +205,10 @@ iframe {
     iframe { 
         margin-top: 10px;
     }
+    
+    footer {
+        font-size: 10px;
+        }
 }
 
 
